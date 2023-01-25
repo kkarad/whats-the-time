@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* debug css */
+* {
+    box-sizing: border-box;
+    /*background: rgb(0 100 0 / 0.1) !important;*/
+    outline: 1px solid limegreen !important;
+}
